@@ -3,21 +3,21 @@
   "header": {
     "description": "pack.name",
     "name": "pack.description",
-    "uuid": "79a92e7a-b665-40b0-a760-a2765a745e90",
+    "uuid": "389274fb-125e-4b48-93f5-983957e3cc42",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 80]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "6a757f11-71d0-47f3-a19d-0d1e6b0de028",
+      "uuid": "4307ec13-af67-4d85-9453-c5148a520ed9",
       "version": [1, 0, 0]
     },
     {
       "type": "script",
       "language": "javascript",
       "entry": "index.js",
-      "uuid": "dc7cd35a-0bb4-485e-bf92-9e07ea278dab",
+      "uuid": "fdf92b0b-ea21-48cc-962d-93f7f85e59a0",
       "version": [1, 0, 0]
     }
   ],
@@ -33,7 +33,7 @@
   ],
   "metadata": {
     "authors": ["tomhmagic"],
-    "license": "",
-    "url": ""
+    "license": "MIT License",
+    "url": "https://github.com/tomhmagic/bedrock-examples/tree/main/Colour%20Picker"
   }
 }
