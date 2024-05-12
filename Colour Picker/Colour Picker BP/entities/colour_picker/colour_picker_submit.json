@@ -10,7 +10,7 @@
 		"components": {
 			"minecraft:type_family": {
 				"family": [
-					"colour_picker_submit"
+					"colour_picker_submit", "colour_picker_entity"
 				]
 			},
 			"minecraft:damage_sensor": {
