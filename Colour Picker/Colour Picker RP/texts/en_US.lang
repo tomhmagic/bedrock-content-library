@@ -1,0 +1,9 @@
+pack.name=Colour Picker Resources
+pack.description=Colour Picker by tomhmagic - https://github.com/tomhmagic
+
+
+##Colour Picker
+colour_picker.form.hex.title=Input Hex Code
+colour_picker.form.hex.input=Input a valid hex code
+colour_picker.form.hex.input.preview=FFFFFF
+colour_picker.form.hex.error=§cInvalid Hex Code

@@ -1,0 +1,144 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "tomhmagic:colour_picker",
+			"is_summonable": true,
+			"is_spawnable": false,
+			"is_experimental": false,
+			"properties": {
+				"property:colour_r": { 
+					"type": "int", 
+					"range": [0, 255], 
+					"default": 255 , 
+					"client_sync": true 
+				},
+				"property:colour_g": { 
+					"type": "int", 
+					"range": [0, 255], 
+					"default": 255 , 
+					"client_sync": true 
+				},
+				"property:colour_b": { 
+					"type": "int", 
+					"range": [0, 255], 
+					"default": 255 , 
+					"client_sync": true 
+				},
+				"property:core_colour_r": { 
+					"type": "int", 
+					"range": [0, 255], 
+					"default": 255 , 
+					"client_sync": true 
+				},
+				"property:core_colour_g": { 
+					"type": "int", 
+					"range": [0, 255], 
+					"default": 255 , 
+					"client_sync": true 
+				},
+				"property:core_colour_b": { 
+					"type": "int", 
+					"range": [0, 255], 
+					"default": 255 , 
+					"client_sync": true 
+				},
+				"property:digit_0": { 
+					"type": "int", 
+					"range": [0, 15], 
+					"default": 0, 
+					"client_sync": true 
+				},
+				"property:digit_1": { 
+					"type": "int", 
+					"range": [0, 15], 
+					"default": 0 , 
+					"client_sync": true 
+				},
+				"property:digit_2": { 
+					"type": "int", 
+					"range": [0, 15], 
+					"default": 0, 
+					"client_sync": true 
+				},
+				"property:digit_3": { 
+					"type": "int", 
+					"range": [0, 15], 
+					"default": 0, 
+					"client_sync": true 
+				},
+				"property:digit_4": { 
+					"type": "int", 
+					"range": [0, 15], 
+					"default": 0, 
+					"client_sync": true 
+				},
+				"property:digit_5": { 
+					"type": "int", 
+					"range": [0, 15], 
+					"default": 0, 
+					"client_sync": true 
+				},
+				"property:anim_hue": { 
+					"type": "float", 
+					"range": [0.0, 15.0], 
+					"default": 0.0,  
+					"client_sync": true 
+				},
+				"property:anim_sat": { 
+					"type": "float", 
+					"range": [0.0, 15.0], 
+					"default": 0.0,  
+					"client_sync": true 
+				},
+				"property:anim_val": { 
+					"type": "float", 
+					"range": [0.0, 15.0], 
+					"default": 0.0, 
+					"client_sync": true 
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"colour_picker"
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"on_damage": {
+						"filters": {}
+					},
+					"deals_damage": false
+				}
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [{
+					"pivot": [0, 0.8, -0.9],
+					"width": 0.3,
+					"height": 0.25
+				}]
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			}
+		}
+	}
+}

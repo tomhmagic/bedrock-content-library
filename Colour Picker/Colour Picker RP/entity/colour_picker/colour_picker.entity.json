@@ -1,0 +1,102 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "tomhmagic:colour_picker",
+        "materials": {
+          "default": "entity_alphatest",
+          "pallet": "entity_alphablend"
+        },
+        "textures": {
+          "base": "textures/colourPicker/base",
+          "hex": "textures/colourPicker/hex/base",
+          "hue": "textures/colourPicker/hue",
+          "pallet": "textures/colourPicker/pallet_grey",
+          "pallet_back": "textures/colourPicker/pallet_blank",
+          "selectors": "textures/colourPicker/selectors",
+          "preview": "textures/colourPicker/preview",
+          "hex_button": "textures/colourPicker/hex_button",
+          "hex_0": "textures/colourPicker/hex/digits/0",
+          "hex_1": "textures/colourPicker/hex/digits/1",
+          "hex_2": "textures/colourPicker/hex/digits/2",
+          "hex_3": "textures/colourPicker/hex/digits/3",
+          "hex_4": "textures/colourPicker/hex/digits/4",
+          "hex_5": "textures/colourPicker/hex/digits/5",
+          "hex_6": "textures/colourPicker/hex/digits/6",
+          "hex_7": "textures/colourPicker/hex/digits/7",
+          "hex_8": "textures/colourPicker/hex/digits/8",
+          "hex_9": "textures/colourPicker/hex/digits/9",
+          "hex_a": "textures/colourPicker/hex/digits/a",
+          "hex_b": "textures/colourPicker/hex/digits/b",
+          "hex_c": "textures/colourPicker/hex/digits/c",
+          "hex_d": "textures/colourPicker/hex/digits/d",
+          "hex_e": "textures/colourPicker/hex/digits/e",
+          "hex_f": "textures/colourPicker/hex/digits/f"
+        },
+        "geometry": {
+          "base": "geometry.colour_picker_base",
+          "hex": "geometry.colour_picker_hex",
+          "hue": "geometry.colour_picker_hue",
+          "pallet": "geometry.colour_picker_pallet",
+          "pallet_back": "geometry.colour_picker_pallet_back",
+          "selectors": "geometry.colour_picker_selectors",
+          "preview": "geometry.colour_picker_preview",
+          "hex_button": "geometry.colour_picker_hex_button",
+          "hex_0": "geometry.colour_picker_hex_0",
+          "hex_1": "geometry.colour_picker_hex_1",
+          "hex_2": "geometry.colour_picker_hex_2",
+          "hex_3": "geometry.colour_picker_hex_3",
+          "hex_4": "geometry.colour_picker_hex_4",
+          "hex_5": "geometry.colour_picker_hex_5"
+        },
+        "scripts": {
+            "initialize": [
+                "v.colour.r = 0;",
+                "v.colour.b = 0;",
+                "v.colour.g = 0;",
+                "v.core_colour.r = 0;",
+                "v.core_colour.g = 0;",
+                "v.core_colour.b = 0;",
+                "v.anim_hue = 0;",
+                "v.anim_sat = 0;",
+                "v.anim_val = 0;"
+            ],
+            "pre_animation": [
+                "v.colour.r = q.property('property:colour_r');",
+                "v.colour.g = q.property('property:colour_g');",
+                "v.colour.b = q.property('property:colour_b');",
+                "v.core_colour.r = q.property('property:core_colour_r');",
+                "v.core_colour.g = q.property('property:core_colour_g');",
+                "v.core_colour.b = q.property('property:core_colour_b');",
+                "v.anim_hue = q.property('property:anim_hue');",
+                "v.anim_sat = q.property('property:anim_sat');",
+                "v.anim_val = q.property('property:anim_val');"
+            ],
+            "animate": [
+                "offset",
+                "selectors"
+            ]
+        },
+        "animations": {
+            "offset": "animation.colour_picker.offset",
+            "selectors": "animation.colour_picker.selectors"
+        },
+        "render_controllers": [
+          "controller.render.colour_pallet.base",
+          "controller.render.colour_pallet.hex",
+          "controller.render.colour_pallet.hue",
+          "controller.render.colour_pallet.selectors",
+          "controller.render.colour_pallet.hex_button",
+          "controller.render.colour_pallet.preview",
+          "controller.render.colour_pallet.pallet",
+          "controller.render.colour_pallet.pallet_back",
+          "controller.render.colour_pallet.hex_0",
+          "controller.render.colour_pallet.hex_1",
+          "controller.render.colour_pallet.hex_2",
+          "controller.render.colour_pallet.hex_3",
+          "controller.render.colour_pallet.hex_4",
+          "controller.render.colour_pallet.hex_5"
+        ]
+      }
+    }
+  }

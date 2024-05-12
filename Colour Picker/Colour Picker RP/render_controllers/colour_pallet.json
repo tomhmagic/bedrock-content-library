@@ -1,0 +1,222 @@
+{
+    "format_version": "1.20.60",
+  
+    "render_controllers": {
+      "controller.render.colour_pallet.base": {
+          "geometry": "geometry.base",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["texture.base"]
+      },
+      "controller.render.colour_pallet.hex": {
+          "geometry": "geometry.hex",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["texture.hex"]
+      },
+      "controller.render.colour_pallet.hue": {
+          "geometry": "geometry.hue",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["texture.hue"]
+      },
+      "controller.render.colour_pallet.selectors": {
+          "geometry": "geometry.selectors",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["texture.selectors"],
+          "ignore_lighting": true
+      },
+      "controller.render.colour_pallet.hex_button": {
+          "geometry": "geometry.hex_button",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["texture.hex_button"]
+      },
+      "controller.render.colour_pallet.pallet_back": {
+          "geometry": "geometry.pallet_back",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["texture.pallet_back"],
+          "overlay_color": {
+            "r": "v.core_colour.r / 255",
+            "g": "v.core_colour.g / 255",
+            "b": "v.core_colour.b / 255",
+            "a": 1
+          }
+      },
+      "controller.render.colour_pallet.preview": {
+        "geometry": "geometry.preview",
+        "materials": [{ "*": "material.default" }],
+        "textures": ["texture.preview"],
+        "overlay_color": {
+          "r": "v.colour.r / 255",
+          "g": "v.colour.g / 255",
+          "b": "v.colour.b / 255",
+          "a": 1
+        }
+      },
+      "controller.render.colour_pallet.pallet": {
+        "geometry": "geometry.pallet",
+        "materials": [{ "*": "material.pallet" }],
+        "textures": ["texture.pallet"]
+      },
+      "controller.render.colour_pallet.hex_0": {
+          "arrays": {
+              "textures": {
+                  "Array.digits": [
+                      "Texture.hex_0",
+                      "Texture.hex_1",
+                      "Texture.hex_2",
+                      "Texture.hex_3",
+                      "Texture.hex_4",
+                      "Texture.hex_5",
+                      "Texture.hex_6",
+                      "Texture.hex_7",
+                      "Texture.hex_8",
+                      "Texture.hex_9",
+                      "Texture.hex_a",
+                      "Texture.hex_b",
+                      "Texture.hex_c",
+                      "Texture.hex_d",
+                      "Texture.hex_e",
+                      "Texture.hex_f"
+                  ]
+              }
+          },
+          "geometry": "geometry.hex_0",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["Array.digits[q.property('property:digit_0')]"]
+      },
+      "controller.render.colour_pallet.hex_1": {
+          "arrays": {
+              "textures": {
+                  "Array.digits": [
+                      "Texture.hex_0",
+                      "Texture.hex_1",
+                      "Texture.hex_2",
+                      "Texture.hex_3",
+                      "Texture.hex_4",
+                      "Texture.hex_5",
+                      "Texture.hex_6",
+                      "Texture.hex_7",
+                      "Texture.hex_8",
+                      "Texture.hex_9",
+                      "Texture.hex_a",
+                      "Texture.hex_b",
+                      "Texture.hex_c",
+                      "Texture.hex_d",
+                      "Texture.hex_e",
+                      "Texture.hex_f"
+                  ]
+              }
+          },
+          "geometry": "geometry.hex_1",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["Array.digits[q.property('property:digit_1')]"]
+      },
+      "controller.render.colour_pallet.hex_2": {
+          "arrays": {
+              "textures": {
+                  "Array.digits": [
+                      "Texture.hex_0",
+                      "Texture.hex_1",
+                      "Texture.hex_2",
+                      "Texture.hex_3",
+                      "Texture.hex_4",
+                      "Texture.hex_5",
+                      "Texture.hex_6",
+                      "Texture.hex_7",
+                      "Texture.hex_8",
+                      "Texture.hex_9",
+                      "Texture.hex_a",
+                      "Texture.hex_b",
+                      "Texture.hex_c",
+                      "Texture.hex_d",
+                      "Texture.hex_e",
+                      "Texture.hex_f"
+                  ]
+              }
+          },
+          "geometry": "geometry.hex_2",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["Array.digits[q.property('property:digit_2')]"]
+      },
+      "controller.render.colour_pallet.hex_3": {
+          "arrays": {
+              "textures": {
+                  "Array.digits": [
+                      "Texture.hex_0",
+                      "Texture.hex_1",
+                      "Texture.hex_2",
+                      "Texture.hex_3",
+                      "Texture.hex_4",
+                      "Texture.hex_5",
+                      "Texture.hex_6",
+                      "Texture.hex_7",
+                      "Texture.hex_8",
+                      "Texture.hex_9",
+                      "Texture.hex_a",
+                      "Texture.hex_b",
+                      "Texture.hex_c",
+                      "Texture.hex_d",
+                      "Texture.hex_e",
+                      "Texture.hex_f"
+                  ]
+              }
+          },
+          "geometry": "geometry.hex_3",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["Array.digits[q.property('property:digit_3')]"]
+      },
+      "controller.render.colour_pallet.hex_4": {
+          "arrays": {
+              "textures": {
+                  "Array.digits": [
+                      "Texture.hex_0",
+                      "Texture.hex_1",
+                      "Texture.hex_2",
+                      "Texture.hex_3",
+                      "Texture.hex_4",
+                      "Texture.hex_5",
+                      "Texture.hex_6",
+                      "Texture.hex_7",
+                      "Texture.hex_8",
+                      "Texture.hex_9",
+                      "Texture.hex_a",
+                      "Texture.hex_b",
+                      "Texture.hex_c",
+                      "Texture.hex_d",
+                      "Texture.hex_e",
+                      "Texture.hex_f"
+                  ]
+              }
+          },
+          "geometry": "geometry.hex_4",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["Array.digits[q.property('property:digit_4')]"]
+      },
+      "controller.render.colour_pallet.hex_5": {
+          "arrays": {
+              "textures": {
+                  "Array.digits": [
+                      "Texture.hex_0",
+                      "Texture.hex_1",
+                      "Texture.hex_2",
+                      "Texture.hex_3",
+                      "Texture.hex_4",
+                      "Texture.hex_5",
+                      "Texture.hex_6",
+                      "Texture.hex_7",
+                      "Texture.hex_8",
+                      "Texture.hex_9",
+                      "Texture.hex_a",
+                      "Texture.hex_b",
+                      "Texture.hex_c",
+                      "Texture.hex_d",
+                      "Texture.hex_e",
+                      "Texture.hex_f"
+                  ]
+              }
+          },
+          "geometry": "geometry.hex_5",
+          "materials": [{ "*": "material.default" }],
+          "textures": ["Array.digits[q.property('property:digit_5')]"]
+      }
+    }
+  }
+  

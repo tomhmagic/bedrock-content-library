@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "tomhmagic:colour_picker_dummy",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"geometry": {
+				"default": "geometry.dummy"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"textures": {
+				"default": "textures/colourPicker/dummy"
+			}
+		}
+	}
+}
